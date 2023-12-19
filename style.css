@@ -178,6 +178,7 @@ h3{
   }
 
   h2{
+    animation: flicker 1.5s infinite alternate;  
     font-size: 70px;
     font-weight: bold;
     text-align: center;
@@ -186,7 +187,6 @@ h3{
     padding-left: 55px;
     padding-right: 55px;
     margin: 0;
-	  animation: flicker 1.5s infinite alternate;
 
   }
 
