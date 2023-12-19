@@ -160,7 +160,20 @@ h3{
   text-align: center;
 }
 
-@keyframes flicker {
+  h2{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: 0;
+    animation: flicker 1.5s infinite alternate;
+
+  }
+
+  @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
         0 0 1px #fff,
@@ -177,29 +190,34 @@ h3{
     }
   }
 
-  h2{
-    animation: flicker 1.5s infinite alternate;  
-    font-size: 70px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 170px;
-    padding-bottom: 170px;
-    padding-left: 55px;
-    padding-right: 55px;
-    margin: 0;
-
-  }
-
-
-
   .z_block_3{
     width: 100vw;
     height: 445px;
     background-color: #8F0000;
     margin-top: 207px;
     border-radius:  30px 30px 0px 0px;
+    position: relative;
     
 
+  }
+
+  .img_cat{
+    position: absolute;
+   top: 50%;
+   left: 10%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   
+  }
+
+  .img_cat2{
+    position: absolute;
+   top: 50%;
+   left: 90%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   
+   
   }
 
   .z_block_text{
@@ -212,8 +230,6 @@ h3{
 
 
   }
-
-
 
 
   .container_3{
